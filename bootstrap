@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <style>
+        a{
+        font-size: 50
+        }
+    </style>
+
+
+
+</head>
+<body>
+<h1>заголовок 1</h1>
+<h2>заголовок 2</h2>
+<h3>заголовок 3</h3>
+<h4>заголовок 4</h4>
+<h5>заголовок 5</h5>
+<h6>заголовок 6</h6>
+<p class="paragraph-1">loren sfalskfsikfncksf</p>
+<p class="paragraph-2">loren sfalskfsikfncksf</p>
+<p class="paragraph-3">loren sfalskfsikfncksf</p>
+<p class="paragraph-4">дз текст параграфа</p>
+<div>
+    <span>popa</span>
+    <span>popa1</span><br>
+    <span>popa4</span>
+</div>
+
+<form action="">
+    <div class="form-floating mb-3">
+    <label for="floatinginput">текст</label>
+    <input class="form-control" id="floatinginput" type="text" placeholder="AAAAAAAAAA"/>
+</div>
+    <label for="a2">чек бокс</label>
+    <input class="form-check-input" id="a2" type="checkbox"/>
+
+    <label for="a3" >пароль</label>
+    <input class="form-control" id="a3" type="password"/>
+
+    <input class="btn btn-info" type="button" value="кнопка"/>
+
+    <textarea name="story" rows="5" cols="50">текстовое поле дз</textarea>
+
+</form>
+
+
+
+
+<a class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="page 2.html">Ссылка на страницу 1 </a>
+<img src="C:\Users\антон\OneDrive\Изображения\8c3e60ab7b0079a3ed80489b345d7f23.jpg" alt="zxc">
+</body>
+</html>
