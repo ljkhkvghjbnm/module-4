@@ -80,6 +80,13 @@ class Advertisement(models.Model):
     class Admin:
         list_display = ["id", "title"]
 
+     @admin.display(description='фото')
+    def image_adm(self):
+        if self.image:
+            return format_html('<img src="%s"/ style= "width: 40px; height:40px;">' % self.image.url)
+        else:
+            return static/img/adv.png
+
     def __str__(self):
         return "%s    %s"%(self.id,self.title)
 
